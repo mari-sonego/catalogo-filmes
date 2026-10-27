@@ -1,0 +1,54 @@
+.catalogo-header {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(12px);
+  border-radius: 28px;
+  border: 2px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 0 16px 36px rgba(124, 77, 255, 0.22);
+  max-width: 680px;
+  margin: 2.5rem auto 2.2rem;
+  padding: 2.2rem 1.8rem;
+  text-align: center;
+}
+
+.catalogo-header h2 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  background: linear-gradient(135deg, #7c4dff, #ff6b8b, #ffb03a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0 0 1.6rem 0;
+}
+
+.catalogo-nav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.1rem;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.catalogo-nav li a {
+  color: #533979;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.92rem;
+  padding: 0.75rem 1.4rem;
+  border-radius: 50px;
+  background: linear-gradient(135deg, #ffffff 0%, #f7f1fc 100%);
+  border: 1.5px solid #dfc9fa;
+  box-shadow: 0 4px 12px rgba(138, 92, 246, 0.12);
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  display: inline-block;
+}
+
+.catalogo-nav li a:hover {
+  background: linear-gradient(135deg, #b388ff 0%, #ff80bf 100%);
+  color: #ffffff;
+  border-color: transparent;
+  transform: translateY(-3px) scale(1.04);
+  box-shadow: 0 8px 22px rgba(179, 136, 255, 0.45);
+}
